@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --mainbg: #721EFB;
+    --mainfoncolor:#fff;
+
+    
+}
+body{
+    background:var(--mainbg) ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-text{
+    font-size:67px;
+    margin-left: 5px;
+}
+.nav{
+    display: flex;
+    gap:30px ;
+}
